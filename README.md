@@ -1,5 +1,5 @@
 # Chrome-TLS-Config  
-![Icon](https://raw.githubusercontent.com/timdawg/Chrome-TLS-Config/master/readme_content/icon.png)
+![Icon](https://raw.githubusercontent.com/timdawg/Chrome-TLS-Config/master/readme_resources/icon.png)
 
 Google Chrome TLS Configuration is a script written in AutoIt that configures the SSL/TLS cipher suite blacklist for Google Chrome (on Windows).
 
@@ -14,7 +14,7 @@ Google Chrome TLS Configuration is a script written in AutoIt that configures th
 * At startup, the previous configuration is automatically read
 * Configuration is stored in chrome_tls_config.ini (file automatically created)
 
-![Screenshot](https://raw.githubusercontent.com/timdawg/Chrome-TLS-Config/master/readme_content/screenshot.png)
+![Screenshot](https://raw.githubusercontent.com/timdawg/Chrome-TLS-Config/master/readme_resources/screenshot.png)
 
 ### Manual Configuration
 To specify a TLS cipher suite blacklist, Google Chrome has to be started with the --cipher-suite-blacklist argument.  All of the shortcuts that are used to open Chrome need to be updated with this argument.  The --cipher-suite-blacklist argument should have an equal sign, followed by the a list of cipher suite IDs (as hex) and separated by commas (without spaces).
