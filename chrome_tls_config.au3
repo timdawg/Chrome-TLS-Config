@@ -1,7 +1,7 @@
 #AutoIt3Wrapper_UseX64=N
 #AutoIt3Wrapper_UseUpx=N
 #AutoIt3Wrapper_Compression=2
-#AutoIt3Wrapper_Icon=chrome_Secure.ico
+#AutoIt3Wrapper_Icon=chrome_tls_icon.ico
 #AutoIt3Wrapper_Res_Description=Google Chrome TLS Configuration
 #AutoIt3Wrapper_Res_Language=1033
 
