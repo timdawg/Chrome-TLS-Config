@@ -49,14 +49,14 @@ Opt("GUIOnEventMode", 1)  ; Change to OnEvent mode
 	AddTlsCipher('TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA', '0xc009')
 	AddTlsCipher('TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA', '0xc013')
 	AddTlsCipher('TLS_DHE_RSA_WITH_AES_128_CBC_SHA', '0x0033')
-	AddTlsCipher('TLS_ECDHE_ECDSA_WITH_RC4_128_SHA', '0xc007')
-	AddTlsCipher('TLS_ECDHE_RSA_WITH_RC4_128_SHA', '0xc011')
 	AddTlsCipher('TLS_RSA_WITH_AES_128_GCM_SHA256', '0x009c')
 	AddTlsCipher('TLS_RSA_WITH_AES_256_CBC_SHA', '0x0035')
 	AddTlsCipher('TLS_RSA_WITH_AES_128_CBC_SHA', '0x002f')
+	AddTlsCipher('TLS_RSA_WITH_3DES_EDE_CBC_SHA', '0x000a')
+	AddTlsCipher('TLS_ECDHE_ECDSA_WITH_RC4_128_SHA', '0xc007')
+	AddTlsCipher('TLS_ECDHE_RSA_WITH_RC4_128_SHA', '0xc011')
 	AddTlsCipher('TLS_RSA_WITH_RC4_128_SHA', '0x0005')
 	AddTlsCipher('TLS_RSA_WITH_RC4_128_MD5', '0x0004')
-	AddTlsCipher('TLS_RSA_WITH_3DES_EDE_CBC_SHA', '0x000a')
 ; End Load TLS ciphers into array
 
 ; Create GUI
